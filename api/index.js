@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: process.env.CLIENT_URL || "https://test-git-main-lavish-patidars-projects.vercel.app",
+  origin: process.env.CLIENT_URL || "https://test-phi-nine-18.vercel.app",
   credentials: true,
 }));
 
