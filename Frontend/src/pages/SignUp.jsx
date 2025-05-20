@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../api/projectApi';
 
-export default function Signup() {
+export default function SignUp() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
