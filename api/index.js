@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173' || 'https://test-7a5h.onrender.com',
+  origin: process.env.CLIENT_URL || "https://test-git-main-lavish-patidars-projects.vercel.app",
   credentials: true,
 }));
 
