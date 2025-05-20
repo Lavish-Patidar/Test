@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-export const API_URL = 'http://localhost:5001/api/projects';
+export const API_URL = `${API_BASE_URL}/api/projects`;
 
-export const API_BASE_URL = 'http://localhost:5001';
-// export const API_BASE_URL = 'https://test-7a5h.onrender.com';
+// export const API_BASE_URL = 'http://localhost:5001';
+export const API_BASE_URL = 'https://test-7a5h.onrender.com';
 
 // Fetch all projects
 export const fetchProjects = () => axios.get(API_URL);
