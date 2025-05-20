@@ -2,8 +2,7 @@
 import express from 'express';
 import { adminSignupController, adminSigninController } from '../controllers/admin.controller.js';
 import authenticateAdmin from '../middlewares/adminAuth.js';
-import User from '../models/user.js';
-
+import User from '../models/User.js'
 const router = express.Router();
 
 // Admin Signup
