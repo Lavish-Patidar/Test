@@ -2,7 +2,7 @@ import express from 'express';
 import { authenticateUser } from '../middlewares/auth.js';
 import Enrollment from '../models/enrollment.model.js';
 import Course from '../models/course.model.js';
-import User from '../models/user.js';
+import User from '../models/User.js'; // Adjust path as needed Correct path to User model
 
 const router = express.Router();
 
